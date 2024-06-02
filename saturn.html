@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Planet_ecomm</title>
+    <link rel="planets" href="venus.html" />
+    <link rel="planets" href="earth.html" />
+    <link rel="planets" href="mars.html" />
+    <link rel="planets" href="jupitar.html" />
+    <link rel="planets" href="uranas.html" />
+    <link rel="planets" href="neptune.html" />
+    <link rel="planets" href="pluto.html" />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-weight: bold;
+        color: antiquewhite;
+      }
+
+      body {
+        font-family: "Montserrat", sans-serif;
+        background-color: #2c2c2c;
+      }
+
+      header {
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid black;
+      }
+
+      ul {
+        display: flex;
+        list-style-type: none;
+      }
+
+      ul li a {
+        margin: 0 5px;
+        border: 2px solid white;
+        padding: 2px 10px;
+        border-radius: 46px;
+        text-decoration: none;
+      }
+
+      .logo img {
+        margin-left: 20px;
+        height: 45px;
+        width: 45px;
+        border-radius: 25px;
+      }
+
+      .signUp {
+        background-color: white;
+        color: black;
+      }
+
+      .signUp:hover {
+        background-color: gray;
+        color: white;
+      }
+
+      main {
+        display: flex;
+        height: 90vh;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0 150px;
+        flex-wrap: wrap;
+      }
+
+      main h2 {
+        font-size: 30px;
+        text-transform: uppercase;
+      }
+
+      main p {
+        font-size: 14px;
+        font-weight: 200;
+        line-height: 31px;
+        margin: 30px 0;
+      }
+
+      .contentLeft {
+        flex: 1;
+      }
+
+      .contentMid {
+        flex: 2;
+      }
+
+      .contentRight {
+        flex: 2;
+      }
+
+      .mercury {
+        max-width: 500px;
+        height: auto;
+        border-radius: 50%;
+      }
+
+      .btn {
+        padding: 15px 30px;
+        background-color: white;
+        outline: none;
+        border: none;
+        color: black;
+        border-radius: 46px;
+        font-weight: 700;
+        margin-top: 15px;
+      }
+
+      .btn:hover {
+        background-color: #2c2c2c;
+        color: antiquewhite;
+        border: 2px solid white;
+      }
+
+      .btn2 {
+        margin-left: 50px;
+      }
+
+      .btn2 a {
+        color: black;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="/images/plaLogo.jpg" alt="logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Offers</a></li>
+          <li><a href="#">Buy Now!</a></li>
+          <li><a href="#">Sell Now</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#" class="signUp">Sign Up</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="contentLeft">
+        <h2>Saturn</h2>
+      </div>
+      <div class="contentMid">
+        <p>
+          The rings are made of ice and rock and scientists are not yet sure how
+          they formed. The gaseous planet is mostly hydrogen and helium and has
+          numerous moons.
+          <br />When polymath Galileo Galilei first studied Saturn in the early
+          1600s, he thought it was an object with three parts: a planet and two
+          large moons on either side. Not knowing he was seeing a planet with
+          rings, the stumped astronomer entered a small drawing — a symbol with
+          one large circle and two smaller ones — in his notebook, as a noun in
+          a sentence describing his discovery. More than 40 years later,
+          Christiaan Huygens proposed that they were rings.
+        </p>
+        <button class="btn">Buy Now</button>
+        <button class="btn btn2">
+          <a href="uranas.html">Next</a>
+        </button>
+      </div>
+      <div class="contentRight">
+        <img src="/images/saturn.jpg" alt="" class="mercury" />
+      </div>
+    </main>
+  </body>
+</html>
